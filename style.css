@@ -1,0 +1,181 @@
+body {
+    font-family: helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section2, .section3{
+
+ width: 1200px; 
+ display: flex;
+ flex-direction: row;
+ column-gap: 160px;
+ margin : 90px 48px;
+ img{
+    width: 50%;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+ }
+}
+
+.baniere{
+   background-image: url(images/supporter1.jpeg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 700px;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+
+     
+    align-items: center; /* Centrer verticalement */
+    height: 100vh;
+    a{
+            border: solid 2px white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    }
+}
+
+.baniere .content {
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+.baniere .content h1 {
+    margin: 0; /* Supprimer la marge par défaut */
+}
+
+.baniere .content p {
+    margin-bottom: 20px; /* Ajouter un peu d'espace en bas */
+}
+
+.baniere .content a {
+    display: inline-block; /* Convertir en bloc pour appliquer la largeur */
+    padding: 10px 20px; /* Ajouter un peu de rembourrage */
+    background-color: transparent; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-decoration: none;
+    border-radius: 20px; /* Coins arrondis */
+}
+
+.baniere .content a:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+.baniere, .navbar{
+    color: white;
+    a{
+      color: white; 
+      text-decoration: none; 
+    }
+}
+
+.menu a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: beige;
+}
+
+.menu a:hover{
+    color: gray;
+}
+
+.navbar{
+    height: 80px;
+    margin-bottom: -80px;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(0,0,0, 0.5),rgba(0,0,0, 0));
+    .menu, p{
+        width: 310px;
+    }
+}
+
+.bloc{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    a{
+        color: white;
+        text-decoration: none;
+        border: solid 2px white;
+        padding: 24px 48px;
+        border-radius: 8px;
+        background-color: black;
+        margin:0 80px ;
+    }
+}
+ 
+.bloc a:hover{
+    color: black;
+    background-color: beige;
+}
+
+.contenu{
+        height: 100%;
+    display: flex;
+    flex-direction: column;
+    a{
+        color: black;
+        text-decoration: none;
+        border: solid 2px black;
+        padding: 10px 20px;
+        border-radius: 8px;
+        width: fit-content;
+
+    }
+}
+.reseaux{
+    margin-bottom:20px ;
+
+    a{
+        font-weight: bolder;
+        color: gray;
+        letter-spacing: 2px;
+
+    }
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    a{
+        margin:0 120px ;
+        text-decoration: none;
+        color: #333;
+    }
+}
+ .reseaux a:hover{
+    color: #007bff;
+ }
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section2{
+    margin-bottom: 30px;
+}
+
+.section3{
+    margin-top: 30px;
+}
+
+
+
+
